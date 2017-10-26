@@ -1,0 +1,45 @@
+WorkingPath: /home/juliano/Workspace/Movie_DePaulMovie_Recommender_System/dataset/Movie_DePaulMovie/../../carskit/results//
+Your original rating data path: /home/juliano/Workspace/Movie_DePaulMovie_Recommender_System/dataset/Movie_DePaulMovie/ratings.txt
+Current working path: /home/juliano/Workspace/Movie_DePaulMovie_Recommender_System/dataset/Movie_DePaulMovie/../../carskit/results//
+Data transformaton completed (from Compact to Binary format). See new rating file: /home/juliano/Workspace/Movie_DePaulMovie_Recommender_System/dataset/Movie_DePaulMovie/../../carskit/results//ratings_binary.txt
+Dataset: ...carskit/results//ratings_binary.txt
+DataPath: /home/juliano/Workspace/Movie_DePaulMovie_Recommender_System/dataset/Movie_DePaulMovie/../../carskit/results//ratings_binary.txt
+Rating data set has been successfully loaded.
+
+/******************************************************************************************************************************************
+ *
+ * Dataset: /home/juliano/Workspace/Movie_DePaulMovie_Recommender_System/dataset/Movie_DePaulMovie/../../carskit/results//ratings_binary.txt
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 97
+ * Item amount: 79
+ * Rate amount: 5035
+ * Context dimensions: 3 (companion, location, time)
+ * Context conditions: 10 (companion: 4, location: 3, time: 3)
+ * Context situations: 13
+ * Data density: 1,82297330607391930000%
+ * Scale distribution: [2.0 x 625, 4.0 x 1209, 1.0 x 829, 5.0 x 1367, 3.0 x 1005]
+ * Average value of all ratings: 3,329688
+ * Standard deviation of all ratings: 1,414732
+ * Mode of all rating values: 5,000000
+ * Median of all rating values: 4,000000
+ *
+ ******************************************************************************************************************************************/
+With Setup: cv -k 5 -p on --rand-seed 1 --test-view all
+18 items have been splitted.
+Item Splitting is done... Algorithm 'bpr' will be applied to the transformed data set.
+20 items have been splitted.
+Item Splitting is done... Algorithm 'bpr' will be applied to the transformed data set.
+21 items have been splitted.
+Item Splitting is done... Algorithm 'bpr' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.1724944202359443
+Density of transformed 2D rating matrix ============================== 0.17942309694887015
+Density of transformed 2D rating matrix ============================== 0.1722680412371134
+15 items have been splitted.
+Item Splitting is done... Algorithm 'bpr' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.17591577100241282
+22 items have been splitted.
+Item Splitting is done... Algorithm 'bpr' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.17209349800959478
+Final Results by itemsplitting-bpr, Pre1: 0,324007, Pre3: 0,258120, Pre5: 0,216836, Pre10: 0,108418, Rec1: 0,141621, Rec3: 0,332055, Rec5: 0,456129, Rec10: 0,456129, F11: 0,185429, F13: 0,298776, F15: 0,277248, F110: 0,167663, AUC: 0,810190, MAP1: 0,141621, MAP3: 0,247766, MAP5: 0,293295, MAP10: 0,293295, NDCG: 0,377495, MRR: 0,452578, -1.0,10,0.02,-1.0,1.0E-4,1.0E-4,100, Time: '00:02','00:00'
+
